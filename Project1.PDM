@@ -1,0 +1,500 @@
+[Root]
+Most Recent Package=Standard Setup Package 3
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\CTO\Desktop\PAP2-CS\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSWINSCK.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Documents and Settings\CTO\Desktop\PAP2-CS\Project1.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\WINDOWS\system32\comcat.dll=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Documents and Settings\CTO\Desktop\PAP2-CS\Project1.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\WINDOWS\system32\comcat.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\CTO\Desktop\PAP2-CS\Project1.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Project1
+
+[Package|Standard Setup Package 1|Project1]
+Icon1=Project1.exe
+Title1=Project1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Project1
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Documents and Settings\CTO\Desktop\PAP2-CS\Package
+ProjectFolder=C:\Documents and Settings\CTO\Desktop\PAP2-CS
+ServerSideCab=
+File1=C:\Documents and Settings\CTO\Desktop\PAP2-CS\Package\setup.exe
+File2=C:\Documents and Settings\CTO\Desktop\PAP2-CS\Package\Setup.Lst
+File3=C:\Documents and Settings\CTO\Desktop\PAP2-CS\Package\Project1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Checkcdr.com Callshop|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\CTO\Desktop\PAP2-CS\Package (2)
+
+[Package|Checkcdr.com Callshop|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Checkcdr.com Callshop|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Checkcdr.com Callshop|Files Found]
+
+[Package|Checkcdr.com Callshop|Files Released]
+
+[Package|Checkcdr.com Callshop|Missing Dependency Information]
+
+[Package|Checkcdr.com Callshop|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\msflxgrd.ocx=
+
+[Package|Checkcdr.com Callshop|Files Added]
+C:\Documents and Settings\CTO\Desktop\PAP2-CS\db.mdb=
+
+[Package|Checkcdr.com Callshop|Files Removed]
+
+[Package|Checkcdr.com Callshop|Files In Project]
+C:\Documents and Settings\CTO\Desktop\PAP2-CS\CallShop.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\msflxgrd.ocx=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\CTO\Desktop\PAP2-CS\db.mdb=Yes
+
+[Package|Checkcdr.com Callshop|Configure Registry Files]
+Applicable=No
+
+[Package|Checkcdr.com Callshop|Configure Remote Servers]
+Applicable=No
+
+[Package|Checkcdr.com Callshop|Install Locations]
+C:\Documents and Settings\CTO\Desktop\PAP2-CS\CallShop.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\CTO\Desktop\PAP2-CS\db.mdb=$(AppPath)
+
+[Package|Checkcdr.com Callshop|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\CTO\Desktop\PAP2-CS\CallShop.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Documents and Settings\CTO\Desktop\PAP2-CS\db.mdb=No
+
+[Package|Checkcdr.com Callshop|Distribution]
+Type=single
+Size=
+Title=Checkcdr.com Callshop
+
+[Package|Checkcdr.com Callshop|IconGroups]
+Group0=Checkcdr.com Callshop
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Checkcdr.com Callshop|Checkcdr.com Callshop]
+Icon1=CallShop.exe
+Title1=Checkcdr.com Callshop
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Callshop|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\CTO\Desktop\PAP2-CS\setups2
+
+[Package|Callshop|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Callshop|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Callshop|Files Found]
+
+[Package|Callshop|Files Released]
+
+[Package|Callshop|Missing Dependency Information]
+
+[Package|Callshop|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\msflxgrd.ocx=
+
+[Package|Callshop|Files Added]
+c:\documents and settings\cto\desktop\pap2-cs\db.mdb=
+
+[Package|Callshop|Files Removed]
+c:\windows\system32\comdlg32.ocx=
+c:\documents and settings\cto\desktop\pap2-cs\db.mdb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+c:\windows\system32\msflxgrd.ocx=
+c:\windows\system32\mswinsck.ocx=
+c:\windows\system32\msvbvm60.dll=
+c:\windows\system32\oleaut32.dll=
+c:\windows\system32\olepro32.dll=
+c:\windows\system32\asycfilt.dll=
+c:\windows\system32\stdole2.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|Callshop|Files In Project]
+C:\Documents and Settings\CTO\Desktop\PAP2-CS\CallShop.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=No
+C:\WINDOWS\system32\oleaut32.dll=No
+C:\WINDOWS\system32\olepro32.dll=No
+C:\WINDOWS\system32\asycfilt.dll=No
+C:\WINDOWS\system32\stdole2.tlb=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\WINDOWS\system32\MSWINSCK.OCX=No
+C:\WINDOWS\system32\msflxgrd.ocx=No
+C:\WINDOWS\system32\comdlg32.ocx=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\CTO\Desktop\PAP2-CS\db.mdb=No
+
+[Package|Callshop|Configure Registry Files]
+Applicable=No
+
+[Package|Callshop|Configure Remote Servers]
+Applicable=No
+
+[Package|Callshop|Install Locations]
+C:\Documents and Settings\CTO\Desktop\PAP2-CS\CallShop.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\CTO\Desktop\PAP2-CS\db.mdb=$(AppPath)
+
+[Package|Callshop|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\CTO\Desktop\PAP2-CS\CallShop.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Documents and Settings\CTO\Desktop\PAP2-CS\db.mdb=No
+
+[Package|Callshop|Distribution]
+Type=single
+Size=
+Title=Checkcdr.com Callshop Update1
+
+[Package|Callshop|Package]
+PackageFolder=C:\Documents and Settings\CTO\Desktop\PAP2-CS\setups2
+ProjectFolder=C:\Documents and Settings\CTO\Desktop\PAP2-CS
+ServerSideCab=
+File1=C:\Documents and Settings\CTO\Desktop\PAP2-CS\setups2\setup.exe
+File2=C:\Documents and Settings\CTO\Desktop\PAP2-CS\setups2\Setup.Lst
+File3=C:\Documents and Settings\CTO\Desktop\PAP2-CS\setups2\CallShop.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Callshop|IconGroups]
+Group0=Checkcdr.com Callshop
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Callshop|Checkcdr.com Callshop]
+Icon1=CallShop.exe
+Title1=Checkcdr.com Callshop
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW\Package (3)
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\msflxgrd.ocx=
+C:\WINDOWS\system32\mswinsck.ocx=
+
+[Package|Standard Setup Package 2|Files Added]
+H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW\callshop.dll=
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW\CallShop.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\mswinsck.ocx=Yes
+C:\WINDOWS\system32\msflxgrd.ocx=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW\callshop.dll=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW\CallShop.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswinsck.ocx=$(WinSysPath)
+C:\WINDOWS\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW\callshop.dll=$(AppPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW\CallShop.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW\callshop.dll=No
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=Callshop 2010-11-18
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=Callshop 2010-11-18
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|Callshop 2010-11-18]
+Icon1=CallShop.exe
+Title1=Callshop 2010-11-18
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW\Package (3)
+ProjectFolder=H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW
+ServerSideCab=
+File1=H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW\Package (3)\setup.exe
+File2=H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW\Package (3)\Setup.Lst
+File3=H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW\Package (3)\CallShop.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 3|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW\Package (4)
+
+[Package|Standard Setup Package 3|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 3|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 3|Files Found]
+
+[Package|Standard Setup Package 3|Files Released]
+
+[Package|Standard Setup Package 3|Missing Dependency Information]
+
+[Package|Standard Setup Package 3|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\msflxgrd.ocx=
+C:\WINDOWS\system32\mswinsck.ocx=
+
+[Package|Standard Setup Package 3|Files Added]
+H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW\callshop.cfg=
+
+[Package|Standard Setup Package 3|Files Removed]
+
+[Package|Standard Setup Package 3|Files In Project]
+H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW\CallShop.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\mswinsck.ocx=Yes
+C:\WINDOWS\system32\msflxgrd.ocx=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW\callshop.cfg=Yes
+
+[Package|Standard Setup Package 3|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 3|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 3|Install Locations]
+H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW\CallShop.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswinsck.ocx=$(WinSysPath)
+C:\WINDOWS\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW\callshop.cfg=$(AppPath)
+
+[Package|Standard Setup Package 3|Configure Shared Files]
+Applicable=Yes
+H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW\CallShop.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW\callshop.cfg=No
+
+[Package|Standard Setup Package 3|Distribution]
+Type=single
+Size=
+Title=Callshop
+
+[Package|Standard Setup Package 3|IconGroups]
+Group0=Callshop
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 3|Callshop]
+Icon1=CallShop.exe
+Title1=Callshop
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 3|Package]
+PackageFolder=H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW\Package (4)
+ProjectFolder=H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW
+ServerSideCab=
+File1=H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW\Package (4)\setup.exe
+File2=H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW\Package (4)\Setup.Lst
+File3=H:\Documents and Settings\CTO\Desktop\PAP2-CS-NEW\Package (4)\CallShop.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
